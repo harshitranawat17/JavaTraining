@@ -1,0 +1,102 @@
+CREATE DATABASE Emp1;
+
+
+use Emp1;
+CREATE TABLE student(
+id int PRIMARY KEY,
+name varchar(250)
+);
+
+
+use Emp1;
+CREATE TABLE Employee2(
+EmpName VARCHAR(50) ,
+id INT PRIMARY KEY
+);
+
+
+USE Emp1;
+INSERT INTO Employee2 VALUES("A",1)
+INSERT INTO Employee2 VALUES("A",2)
+INSERT INTO Employee2 VALUES("E",3)
+INSERT INTO Employee2 VALUES("C",4)
+INSERT INTO Employee2 VALUES("B",5)
+INSERT INTO Employee2 VALUES("S",6)
+INSERT INTO Employee2 VALUES("d",7);
+
+
+
+SELECT * FROM Employee2;
+
+
+SELECT * FROM Employee2 where id=2;
+
+
+SELECT * FROM Employee2 where id>3;
+
+
+SELECT COUNT(id) FROM Employee2;
+
+
+SELECT AVG(id) FROM Employee2;
+
+
+SELECT SUM(id) FROM Employee2 WHERE EmpName;
+
+
+DELETE FROM Employee2 WHERE id=10;
+
+
+ALTER TABLE Employee2
+RENAME COLUMN EmpName TO name;
+
+
+CREATE TABLE student(
+id INT PRIMARY KEY,
+city varchar(100),
+state varchar(100),
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
