@@ -1,0 +1,18 @@
+package com.api.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.api.entities.Book;
+
+public class BookService {
+	
+	private static List<Book> list = new ArrayList<>();
+	
+	static {
+		list.add(new Book(12,"java new book1", "abc"));
+		list.add(new Book(13,"java new book2", "def"));
+		list.add(new Book(14,"java new book3", "ghi"));
+	}
+
+}

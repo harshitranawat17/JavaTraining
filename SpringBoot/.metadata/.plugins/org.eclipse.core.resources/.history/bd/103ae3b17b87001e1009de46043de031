@@ -1,0 +1,5 @@
+package com.lcmd.orm.entities;
+
+public class Student {
+
+}
